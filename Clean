@@ -1,6 +1,3 @@
-﻿
-	$objShell = New-Object -ComObject Shell.Application
-	$objFolder = $objShell.Namespace(0xA)
 	$WinTemp = "c:\Windows\Temp\*"
 	
 #1#	Empty Recycle Bin #
