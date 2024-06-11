@@ -1,3 +1,6 @@
+$WinTemp = "c:\Windows\Temp\*"
+
+
 #1#	Empty Recycle Bin #
 	write-Host "Emptying Recycle Bin." -ForegroundColor Cyan 
 	$objFolder.items() | %{ remove-item $_.path -Recurse -Confirm:$false}
