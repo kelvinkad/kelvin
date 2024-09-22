@@ -1,0 +1,257 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache]
+"SV1"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowHibernateOption"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowGameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="4096"
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband]
+"MinThumbSizePx"=dword:00000500
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+"BingSearchEnabled"=dword:00000000
+"CortanaConsent"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"AllowCortana"=dword:00000000
+"BingSearchEnabled"=dword:00000000
+"CortanaConsent"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager]
+"ShippedWithReserves"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSyncProviderNotifications"=dword:00000000
+"ShowSecondsInSystemClock"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SilentInstalledAppsEnabled"=dword:00000000
+"SubscribedContent-310093Enabled"=dword:00000000
+"SubscribedContentEnabled"=dword:00000000
+"PreInstalledAppsEverEnabled"=dword:00000000
+"ContentDeliveryAllowed"=dword:00000000
+"SystemPaneSuggestionsEnabled"=dword:00000000
+"SoftLandingEnabled"=dword:00000000
+"RotatingLockScreenEnabled"=dword:00000000
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters]
+"Disable Bandwidth Throttling"=dword:00000001
+"DisableBandwidthThrottling"=dword:00000001
+"EnableWsd"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\]
+"TcpAckFrequency"=dword:00000001
+"TCPNoDelay"=dword:00000001
+"TcpDelAckTicks"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+"Background Only"="False"
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnableSuperfetch"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000002
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"SackOpts"=dword:00000001
+"TcpWindowSize"=dword:0005ae4c
+"Tcp1323Opts"=dword:00000003
+"DefaultTTL"=dword:00000040
+"EnablePMTUBHDetect"=dword:00000001
+"GlobalMaxTcpWindowSize"=dword:0005ae4c
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"MaxConnectionsPer1_0Server"=dword:00000016
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"MaxConnectionsPerServer"=dword:00000016
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPer1_0Server"=dword:00000016
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPerServer"=dword:00000016
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"="10"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="10"
+"AutoEndTasks"="1"
+"HungAppTimeout"="400"
+"WaitToKillServiceTimeout"="400"
+"WaitToKillAppTimeout"="400"
+"Win8DpiScaling"=dword:00000001
+"LogPixels"=dword:00000048
+"JPEGImportQuality"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ]
+"TCPNoDelay"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="400"
+"WaitToKillAppTimeout"="400"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"IconTitleWrap"="1"
+"Shell Icon Size"="32"
+"SmCaptionWidth"="-330"
+"BorderWidth"="-15"
+"SmCaptionHeight"="-330"
+"CaptionWidth"="-330"
+"ScrollHeight"="-255"
+"CaptionHeight"="-330"
+"ScrollWidth"="-255"
+"MenuWidth"="-285"
+"MenuHeight"="-285"
+"PaddedBorderWidth"="-60"
+"AppliedDPI"=dword:00000060
+"IconSpacing"="-1000"
+"IconVerticalSpacing"="-1000"
+"MinAnimate"="1"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+@="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+ 
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
+@="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedCmd]
+@="Prompt de Comando (Administrador)"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedCmd\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedCmd]
+@="Prompt de Comando (Administrador)"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedCmd\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedCmd]
+@="Prompt de Comando (Administrador)"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedCmd\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/k,pushd,%V' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd]
+@="Prompt de Comando (Administrador)"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd\command]
+@=
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedPS]
+@="Powershell (Administrador)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedPS\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/c,pushd %V && powershell' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedPS]
+@="Powershell (Administrador)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedPS\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/c,pushd %V && powershell' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedPS]
+@="Powershell (Administrador)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedPS\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/c,pushd %V && powershell' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedPS]
+@="Powershell (Administrador)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedPS\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/c,pushd %V && powershell' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+@="Take Ownership"
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership\command]
+@="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+"IsolatedCommand"= "powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership]
+@="Take Ownership"
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership\command]
+@="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" /r /d y && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause' -Verb runAs\""
+"IsolatedCommand"="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" /r /d y && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause' -Verb runAs\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}]
+@=""
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
+@=""
+
