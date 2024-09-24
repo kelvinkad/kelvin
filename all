@@ -1,0 +1,43 @@
+set-executionpolicy unrestricted -force
+Get-AppxPackage -allusers | where-object {$_.name -notlike "*store*"} | where-object {$_.name -notlike "*screensketch*"} | where-object {$_.name -notlike "*calculator*"} | where-object {$_.name -notlike "*photos*"} | where-object {$_.name -notlike "*MicrosoftEdge*"} | where-object {$_.name -notlike "*paint*"} | where-object {$_.name -notlike "*DesktopAppInstaller*"} | where-object {$_.name -notlike "*notepad*"} | Remove-AppxPackage
+Invoke-WebRequest 'raw.githubusercontent.com/kelvinkad/kelvin/main/gamer' -OutFile C:\gamer.reg
+
+Set-ExecutionPolicy unrestricted -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install adb brave firefox googlechrome googledrive gimp notepadplusplus audacity bulkrenameutility cryptomator crystaldiskinfo everything googleearthpro handbrake meld qbittorrent recuva unchecky winmerge potplayer 4k-video-downloader dupeguru windirstat kdenlive sharex libreoffice-fresh bulk-crap-uninstaller k-litecodecpackmega bleachbit caesium.install javaruntime googlechrome vlc 7zip dropbox dotnetfx winrar cdburnerxp zulu obs-studio ventoy dotnetfx winamp jre8 vcredist140 -y --acceptlicense --ignorechecksum
+choco install adobereader --params="'/UpdateMode:4'" -y --acceptlicense --ignorechecksum
+
+$WinTemp = "c:\Windows\Temp\*"
+
+
+#1#	Empty Recycle Bin #
+	write-Host "Emptying Recycle Bin." -ForegroundColor Cyan 
+	$objFolder.items() | %{ remove-item $_.path -Recurse -Confirm:$false}
+	
+#2# Remove Temp
+	write-Host "Removing Temp" -ForegroundColor Green
+    Set-Location “C:\Windows\Temp”
+	Remove-Item * -Recurse -Force -ErrorAction SilentlyContinue
+
+    Set-Location “C:\Windows\Prefetch”
+    Remove-Item * -Recurse -Force -ErrorAction SilentlyContinue
+
+    Set-Location “C:\Documents and Settings”
+    Remove-Item “.\*\Local Settings\temp\*” -Recurse -Force -ErrorAction SilentlyContinue
+
+    Set-Location “C:\Users”
+    Remove-Item “.\*\Appdata\Local\Temp\*” -Recurse -Force -ErrorAction SilentlyContinue
+	
+#3# Running Disk Clean up Tool 
+	write-Host "Finally now , Running Windows disk Clean up Tool" -ForegroundColor Cyan
+	cleanmgr /sageset:4 
+	pause
+	cleanmgr /sagerun:4
+sleep 5
+
+Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion | Sort-Object -Property DisplayName -Unique | Format-Table -AutoSize > "$env:SystemDrive\programas_instalados.txt"
+Remove-Item (Get-PSReadlineOption).HistorySavePath
+write-host "Cleanup Finished" -ForegroundColor red
+
+
+sleep 5
