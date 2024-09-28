@@ -3,3 +3,4 @@ Set-ExecutionPolicy unrestricted -Scope Process -Force; [System.Net.ServicePoint
 
 choco install adb brave firefox googlechrome googledrive gimp notepadplusplus audacity bulkrenameutility cryptomator crystaldiskinfo everything googleearthpro handbrake meld qbittorrent recuva unchecky winmerge potplayer 4k-video-downloader dupeguru windirstat kdenlive sharex libreoffice-fresh bulk-crap-uninstaller k-litecodecpackmega bleachbit caesium.install javaruntime googlechrome vlc 7zip dropbox dotnetfx winrar cdburnerxp zulu obs-studio ventoy dotnetfx winamp vcredist140 -y --acceptlicense --ignorechecksum
 choco install adobereader --params="'/UpdateMode:4'" -y --acceptlicense --ignorechecksum
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
