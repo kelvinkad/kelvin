@@ -1,3 +1,2 @@
 set-executionpolicy unrestricted -force
 Get-AppxPackage -allusers | where-object {$_.name -notlike "*store*"} | where-object {$_.name -notlike "*screensketch*"} | where-object {$_.name -notlike "*calculator*"} | where-object {$_.name -notlike "*photos*"} | where-object {$_.name -notlike "*MicrosoftEdge*"} | where-object {$_.name -notlike "*paint*"} | where-object {$_.name -notlike "*DesktopAppInstaller*"} | where-object {$_.name -notlike "*notepad*"} | Remove-AppxPackage
-Invoke-WebRequest 'raw.githubusercontent.com/kelvinkad/kelvin/main/gamer' -OutFile C:\gamer.reg
