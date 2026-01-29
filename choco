@@ -1,7 +1,7 @@
 set-executionpolicy unrestricted -force
 Set-ExecutionPolicy unrestricted -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-choco install adb brave firefox googlechrome googledrive gimp notepadplusplus audacity bulkrenameutility cryptomator crystaldiskinfo everything googleearthpro handbrake meld qbittorrent recuva unchecky winmerge potplayer 4k-video-downloader dupeguru windirstat kdenlive sharex libreoffice-fresh bulk-crap-uninstaller k-litecodecpackmega bleachbit caesium.install javaruntime googlechrome vlc 7zip dropbox dotnetfx winrar cdburnerxp zulu obs-studio ventoy dotnetfx winamp vcredist140 -y --acceptlicense --ignorechecksum
+choco install adb brave firefox googlechrome googledrive gimp notepadplusplus audacity bulkrenameutility cryptomator crystaldiskinfo everything googleearthpro handbrake meld qbittorrent-enhanced recuva unchecky winmerge potplayer 4k-video-downloader dupeguru windirstat yt-dlp kdenlive sharex libreoffice-fresh bulk-crap-uninstaller k-litecodecpackmega bleachbit caesium.install javaruntime googlechrome vlc 7zip dropbox dotnetfx winrar cdburnerxp zulu obs-studio ventoy dotnetfx winamp vcredist140 -y --acceptlicense --ignorechecksum
 choco install adobereader --params="'/UpdateMode:4'" -y --acceptlicense --ignorechecksum
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 Invoke-WebRequest 'raw.githubusercontent.com/kelvinkad/kelvin/main/gamer' -OutFile C:\gamer.reg
